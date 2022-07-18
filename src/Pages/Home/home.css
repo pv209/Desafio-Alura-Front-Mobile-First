@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap");
+
+.casa {
+  width: 1em;
+
+  position: absolute;
+  display: flex;
+  top: 48px;
+  left: 48px;
+  padding: 0 auto;
+  z-index: 99;
+}
+
+.mensagem {
+  width: 1em;
+
+  position: absolute;
+  top: 52px;
+  left: 130px;
+}
+
+.forma {
+}
+
+.logo {
+  position: absolute;
+  width: 186.67px;
+  height: 46px;
+  left: 87px;
+  top: 168px;
+  padding: 0;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 auto;
+}
+
+.content__title {
+  position: absolute;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+  text-align: center;
+  width: 155px;
+  height: 48px;
+  left: 102px;
+  top: 205px;
+  color: #ffffff;
+  font-family: "Poppins";
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #3772ff;
+}
+
+.content__text {
+  position: absolute;
+  width: 248px;
+  height: 72px;
+  left: 56px;
+  top: 275px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins";
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.btn__login {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 90px;
+  top: 398px;
+  background-color: #fc7071;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins";
+}
+
+.btn__cadastro {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 90px;
+  top: 454px;
+  background-color: #fc7071;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins";
+}
+
+.ilust {
+  position: absolute;
+  width: 247.34px;
+  height: 312.77px;
+  left: 33.66px;
+  top: 518px;
+}
+
+.home__footer {
+  position: absolute;
+  width: 360px;
+  height: 104px;
+  left: 0px;
+  top: 813px;
+  background: #36d6ad;
+  text-align: center;
+  padding: auto 0;
+  color: #ffffff;
+}
+
+.home__footer p {
+  padding: 0 auto;
+  text-align: center;
+}
+
+.form2 {
+  position: absolute;
+  width: 84.03px;
+  height: 415px;
+  left: 290.7px;
+  top: 199px;
+}
