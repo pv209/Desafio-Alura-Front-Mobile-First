@@ -1,38 +1,39 @@
-import casa from "../Imagens/Casa.png";
-import forma1 from "../Imagens/Forma 1.png";
-import mensagem from "../Imagens/Mensagens.png";
 import logo from "../Imagens/Logo.png";
 import ilust from "../Imagens/ilust.png";
-import forma2 from "../Imagens/forma2.png"
+import forma2 from "../Imagens/forma2.png";
+import Header from "../../Components/Header";
+import { Link } from "react-router-dom";
+import Footer from "../../Components/Footer";
 import "./home.css";
 
 function Home() {
   return (
-    <div class="main__home">
-      <div class="header">
-        <img src={casa} alt="casa" class="casa" />
-        <img src={forma1} alt="forma" class="forma" />
-        <img src={mensagem} alt="mensagem" class="mensagem" />
+    <div className="home">
+      <div class="forma__lateral">
+        <img src={forma2} alt="forma" class="form2" />
       </div>
-      <div class="home__content">
-        <img src={logo} alt="logo" class="logo" />
-        <h3 class="content__title">Boas-Vindas!</h3>
-        <p class="content__text">
-          Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a
-          gente!
-        </p>
-        <button class="btn__login" type="button">
-          Ja tenho conta
-        </button>
-        <button class="btn__cadastro" type="button">
-          Quero me cadastrar
-        </button>
+      <Header />
+      <div class="main__home">
+        <div class="home__content">
+          <img src={logo} alt="logo" class="logo" />
+          <h3 class="content__title">Boas-Vindas!</h3>
+          <p class="content__text">
+            Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a
+            gente!
+          </p>
+          <button class="btn__inicial" type="button">
+            Ja tenho conta
+          </button>
+          <Link to="/cadastrar">
+            <button class="btn__inicial" type="button">
+              Quero me cadastrar
+            </button>
+          </Link>
+
+          <img src={ilust} alt="ilustracao" class="ilust" />
+        </div>
+        <Footer/>
       </div>
-      <img src={ilust} alt="ilustracao" class="ilust" />
-      <div class="home__footer">
-        <p>2022 - Desenvolvido por Alura.</p>
-      </div>
-    <img src={forma2} alt="forma" class="form2"/>
     </div>
   );
 }

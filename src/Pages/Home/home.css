@@ -19,13 +19,31 @@
   left: 130px;
 }
 
+.header {
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+}
 .forma {
+  left: 0;
+}
+
+.main__home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  flex:1;
 }
 
 .logo {
-  position: absolute;
-  width: 186.67px;
-  height: 46px;
+  width: 35%;
   left: 87px;
   top: 168px;
   padding: 0;
@@ -37,10 +55,10 @@
   align-items: center;
   justify-content: center;
   padding: 0 auto;
+  width: 100vw;
 }
 
 .content__title {
-  position: absolute;
   font-weight: 500;
   font-size: 20px;
   line-height: 48px;
@@ -55,11 +73,9 @@
 
 body {
   font-family: "Poppins";
-  background-color: #3772ff;
 }
 
 .content__text {
-  position: absolute;
   width: 248px;
   height: 72px;
   left: 56px;
@@ -67,7 +83,6 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
   font-family: "Poppins";
 
   text-align: center;
@@ -75,50 +90,39 @@ body {
   color: #ffffff;
 }
 
-.btn__login {
-  position: absolute;
+.btn__inicial {
   width: 180px;
   height: 40px;
-  left: 90px;
-  top: 398px;
   background-color: #fc7071;
   border: none;
   text-align: center;
   color: #ffffff;
   font-family: "Poppins";
-}
-
-.btn__cadastro {
-  position: absolute;
-  width: 180px;
-  height: 40px;
-  left: 90px;
-  top: 454px;
-  background-color: #fc7071;
-  border: none;
-  text-align: center;
-  color: #ffffff;
-  font-family: "Poppins";
+  margin: 10px;
 }
 
 .ilust {
-  position: absolute;
-  width: 247.34px;
-  height: 312.77px;
-  left: 33.66px;
-  top: 518px;
+  width: 40%;
+  height: 25%;
+  flex:1;
 }
 
 .home__footer {
-  position: absolute;
-  width: 360px;
-  height: 104px;
-  left: 0px;
-  top: 813px;
+  position: fixed;
+  bottom: 0;
+  flex-direction: column;
+  width: 100vw;
+  height: 70px;
   background: #36d6ad;
   text-align: center;
-  padding: auto 0;
   color: #ffffff;
+}
+.home {
+  display:flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3772FF;
 }
 
 .home__footer p {
@@ -127,9 +131,34 @@ body {
 }
 
 .form2 {
-  position: absolute;
   width: 84.03px;
   height: 415px;
-  left: 290.7px;
-  top: 199px;
+  left: 0;
+}
+
+.forma__lateral {
+  right: 0;
+  top: 25%;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+@media (max-height:680px) {
+  .ilust{
+    display: none;
+  }
+}
+
+@media (min-height:900px) {
+  .header{
+    height:15em;
+  }
+}
+
+@media ( min-height:1180px) {
+  .header{
+    height: 25em;
+  }
 }
