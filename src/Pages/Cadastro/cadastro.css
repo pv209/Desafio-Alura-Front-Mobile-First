@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap");
 
 .main__cadastro {
+  display: flex;
+  flex-direction: column;
   background-color: #f7f7f7;
   width: 100vw;
   height: 100vh;
 }
 
 .logo__cadastro {
+  margin-top: 10em;
   width: 30%;
 }
 

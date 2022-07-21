@@ -4,6 +4,7 @@ import logo from "../Imagens/Logosvg.svg";
 import "./cadastro.css";
 import Footer from "../../Components/Footer";
 import forma2 from "../Imagens/Forma 2cadas.png"
+import { Link } from "react-router-dom";
 
 function Cadastro() {
   return (
@@ -25,7 +26,9 @@ function Cadastro() {
            <input type="password" className="cadastro__inpt" placeholder="Crie uma senha" />
            <label className="cadastro__label">Confirme sua senha</label>
            <input type="password" className="cadastro__inpt" placeholder="Repita a senha criada a cima" />
+           <Link to="/pets">
            <button className="btn__inicial">Cadastrar</button>
+           </Link>
         </div>
         <Footer/>
       </div>
