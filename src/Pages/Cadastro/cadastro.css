@@ -9,7 +9,6 @@
 }
 
 .logo__cadastro {
-  margin-top: 10em;
   width: 30%;
 }
 
@@ -45,7 +44,7 @@
   background: #f7f7f7;
   border-radius: 6px;
   text-align: center;
-  width: 312px;
+  width: 15em;
   height: 30px;
   border: none;
 }
@@ -68,4 +67,9 @@
   justify-content: center;
   align-items: center;
   float: left;
+}
+
+.forma{
+  width: 20em;
+  height: 12em;
 }

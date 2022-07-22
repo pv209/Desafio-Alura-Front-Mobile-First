@@ -21,8 +21,6 @@
 
 .header {
   width: 30%;
-  position: absolute;
-  height: 20em;
 }
 .forma {
   left: 0;
@@ -49,7 +47,6 @@
   width: 35%;
   left: 87px;
   top: 168px;
-  padding: 0;
 }
 
 .main__content {
@@ -105,17 +102,15 @@ body {
 }
 
 .ilust {
-  width: 40%;
+  width: 30%;
   height: 25%;
   flex:1;
 }
 
 .home__footer {
-  position: fixed;
   bottom: 0;
-  flex-direction: column;
   width: 100vw;
-  height: 70px;
+  padding: 10px;
   background: #36d6ad;
   text-align: center;
   color: #ffffff;

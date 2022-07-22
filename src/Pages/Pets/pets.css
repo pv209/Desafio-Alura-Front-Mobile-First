@@ -1,0 +1,75 @@
+.main__pets {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__pets h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3772ff;
+  text-align: center;
+}
+
+.main__cards {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+}
+
+.pets__img {
+  width: 40%;
+  float: left;
+  padding-right: 16px;
+}
+
+.cards__text {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__text h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3772ff;
+  padding: 0.05em;
+  margin: 0;
+  padding-bottom: 5px;
+}
+.cards__text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #737380;
+  margin: 0;
+}
+.main__card {
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: flex-start;
+}
+
+.desc p {
+  padding-bottom: 30px;
+}
+
+.local {
+  padding-top:30px;  
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+.icone__mensagem  {
+    margin-right: 3px;
+}
