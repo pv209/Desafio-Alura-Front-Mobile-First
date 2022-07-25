@@ -108,7 +108,8 @@ body {
 }
 
 .home__footer {
-  bottom: 0;
+  position: absolute;
+  bottom:0px;
   width: 100vw;
   padding: 10px;
   background: #36d6ad;
