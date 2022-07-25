@@ -21,9 +21,11 @@ function Home() {
             Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a
             gente!
           </p>
-          <button class="btn__inicial" type="button">
-            Ja tenho conta
-          </button>
+          <Link to="/login">
+            <button class="btn__inicial" type="button">
+              Ja tenho conta
+            </button>
+          </Link>
           <Link to="/cadastrar">
             <button class="btn__inicial" type="button">
               Quero me cadastrar
@@ -32,7 +34,7 @@ function Home() {
 
           <img src={ilust} alt="ilustracao" class="ilust" />
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
