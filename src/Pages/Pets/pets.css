@@ -19,6 +19,7 @@
   width: 100vw;
   height: 100vh;
   flex-grow: 1;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -76,4 +77,8 @@
 }
 .icone__mensagem  {
     margin-right: 3px;
+}
+
+.main__pets h5{
+  margin-top:100px;
 }
