@@ -3,6 +3,7 @@ import Home from "../Pages/Home/Home";
 import Cadastro from "../Pages/Cadastro/Cadastro";
 import Pets from "../Pages/Pets/Pets";
 import Login from "../Pages/Login/Login";
+import Mensagem from "../Pages/Mensagem/Mensagem"
 
 export default function Rotas() {
   return (
@@ -11,6 +12,7 @@ export default function Rotas() {
       <Route exact path="/cadastrar" element={<Cadastro/>} />
       <Route exact path="/pets" element={<Pets/>} />
       <Route exact path="/login" element={<Login/>} />
+      <Route exact path="/mensagem" element={<Mensagem/>} />
     </Routes>
   );
 }
