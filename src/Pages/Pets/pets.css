@@ -82,3 +82,10 @@
 .main__pets h5{
   margin-top:100px;
 }
+
+.usuario{
+  position:fixed;
+  width: 40px;
+  top:30px;
+  right: 60px;
+}

@@ -1,11 +1,16 @@
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import "./mensagem.css";
+import { Link } from "react-router-dom";
+import usuario from "../Imagens/usuario.png";
 
 function Mensagem() {
   return (
     <div className="main__mensagem">
       <Header />
+      <Link to="/perfil">
+        <img src={usuario} alt="usuario" className="usuario" />
+      </Link>
       <div className="mensagem__text">
         <h4>
           Envie uma mensagem para a pessoa ou instituição que está cuidando do
@@ -38,9 +43,12 @@ function Mensagem() {
           placeholder="escreva sua mensagem"
         />
       </div>
-      <button className="btn__inicial" type="button">
-        Enviar
-      </button>
+      <Link to="/pets">
+        <button className="btn__inicial" type="button">
+          Enviar
+        </button>
+      </Link>
+
       <Footer />
     </div>
   );
