@@ -149,11 +149,6 @@ body {
   bottom: 40px;
 }
 
-.forma1{
-  width: fit-content;
-
-}
-
 .logo__header{
   position: absolute;
   top:30px;
@@ -175,7 +170,7 @@ body {
   }
 
   .mensagem{
-    left:250px;
+    left:220px;
   }
 }
 

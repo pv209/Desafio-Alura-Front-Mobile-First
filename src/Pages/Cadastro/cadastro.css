@@ -113,6 +113,12 @@
 
   .forma{
     width:100%;
-    height:100%;
+  }
+}
+
+
+@media (max-width: 300px) {
+  .forma2{
+    display:none;
   }
 }
