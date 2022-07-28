@@ -1,47 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap");
 
-.casa {
-  width: 20px;
-
-  position: fixed;
-  display: flex;
-  top: 32px;
-  left: 40px;
-  padding: 0 auto;
-  z-index: 99;
-}
-
-.mensagem {
-  width:20px;
-
-  position: absolute;
-  top: 36px;
-  left: 130px;
-}
-
 .header {
   width: 100%;
-  height:98px;
-  position:fixed;
-
+  height: 98px;
+  position: fixed;
 }
 .forma {
   left: 0;
-  width:30em;
+  width: 30em;
 }
 
+.casa{
+  margin:20px;
+}
+
+
+
+.forma1 {
+  display:flex;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index:-1;
+  width: 100%;
+}
 .main__home {
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .home__content {
-  background-color: #3772FF;;
+  background-color: #3772ff;
   display: flex;
-  height:100vh;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   width: 100vw;
@@ -103,12 +101,12 @@ body {
 }
 
 .ilust {
-  flex:1;
+  flex: 1;
 }
 
 .home__footer {
   position: fixed;
-  bottom:0px;
+  bottom: 0px;
   width: 100vw;
   padding: 10px;
   background: #36d6ad;
@@ -116,11 +114,10 @@ body {
   color: #ffffff;
 }
 .home {
-  display:flex;
+  display: flex;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-color: #ff3737;
 }
 
 .home__footer p {
@@ -144,18 +141,22 @@ body {
   float: right;
 }
 
-.div__ilust{
-  position:absolute;
+.div__ilust {
+  position: absolute;
   bottom: 40px;
 }
 
-.logo__header{
-  position: absolute;
-  top:30px;
-  left: 30px;
+
+.home__email {
+  margin: 0 auto;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  z-index:99;
+  justify-content: flex-start;
 }
-@media (max-height:750px) {
-  .ilust{
+@media (max-height: 750px) {
+  .ilust {
     display: none;
   }
 
@@ -164,25 +165,18 @@ body {
   }
 }
 
-@media (min-height:760px) {
-  .casa{
-    left:180px;
+@media (min-height: 760px) {
+  .casa {
+    left: 180px;
   }
 
-  .mensagem{
-    left:220px;
+  .mensagem {
+    left: 220px;
   }
 }
 
-
-
-
-
-@media(min-height: 1300px) {
-  .logo{
-    margin-top:250px;
+@media (min-height: 1300px) {
+  .logo {
+    margin-top: 250px;
   }
-   
 }
-
-

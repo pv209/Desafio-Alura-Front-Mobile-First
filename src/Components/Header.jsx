@@ -8,17 +8,18 @@ import logoHeader from "../Pages/Imagens/logo__header.png";
 function Header() {
   return (
     <div class="header">
-      <Link to="/">
+      <div className="home__email">
+        <img src={logoHeader} alt="logo" className="logo__header" />
+        <Link to="/">
+            <img src={casa} alt="casa" class="casa" />
+        </Link>
         <a>
-          <img src={casa} alt="casa" class="casa" />
+          <img src={mensagem} alt="mensagem" class="mensagem" />
         </a>
-      </Link>
-      <img src={logoHeader} alt="logo" className="logo__header" />
-      <a>
-        <img src={mensagem} alt="mensagem" class="mensagem" />
-      </a>
-      <div class="forma1">
-        <img src={forma1} alt="forma" class="forma" />
+
+        <div class="forma1">
+          <img src={forma1} alt="forma" class="forma" />
+        </div>
       </div>
     </div>
   );
