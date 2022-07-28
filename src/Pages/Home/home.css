@@ -22,10 +22,12 @@
 .header {
   width: 100%;
   height:98px;
-  position: fixed;
+  position:fixed;
+
 }
 .forma {
   left: 0;
+  width:30em;
 }
 
 .main__home {
@@ -37,18 +39,16 @@
 }
 
 .home__content {
-  background-color: #3772FF;
+  background-color: #3772FF;;
   display: flex;
+  height:100vh;
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  flex:1;
 }
 
 .logo {
   width: 35%;
-  left: 87px;
-  top: 168px;
 }
 
 .main__content {
@@ -71,7 +71,7 @@
   top: 205px;
   color: #ffffff;
   font-family: "Poppins";
-  margin-top: 100px;
+  margin-top: 4px;
 }
 
 body {
@@ -81,8 +81,6 @@ body {
 .content__text {
   width: 248px;
   height: 72px;
-  left: 56px;
-  top: 275px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -105,8 +103,6 @@ body {
 }
 
 .ilust {
-  width: 30%;
-  height: 25%;
   flex:1;
 }
 
@@ -124,7 +120,7 @@ body {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-color: #3772FF;
+  background-color: #ff3737;
 }
 
 .home__footer p {
@@ -147,20 +143,51 @@ body {
   align-items: center;
   float: right;
 }
-@media (max-height:680px) {
+
+.div__ilust{
+  position:absolute;
+  bottom: 40px;
+}
+
+.forma1{
+  width: fit-content;
+
+}
+
+.logo__header{
+  position: absolute;
+  top:30px;
+  left: 30px;
+}
+@media (max-height:750px) {
   .ilust{
+    display: none;
+  }
+
+  .logo__header {
     display: none;
   }
 }
 
-@media (min-height:900px) {
-  .header{
-    height:15em;
+@media (min-height:760px) {
+  .casa{
+    left:180px;
+  }
+
+  .mensagem{
+    left:250px;
   }
 }
 
-@media ( min-height:1180px) {
-  .header{
-    height: 25em;
+
+
+
+
+@media(min-height: 1300px) {
+  .logo{
+    margin-top:250px;
   }
+   
 }
+
+

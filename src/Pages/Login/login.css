@@ -66,3 +66,17 @@
   text-decoration-line: underline;
   color: #FC7071;
 }
+
+
+@media (min-height: 768px) {
+    .logo{
+      margin-top: 130px;
+    }
+}
+
+
+@media (min-height: 1300px) {
+  .logo{
+    margin-top: 450px;
+  }
+}

@@ -86,10 +86,25 @@
     text-align: start;
     width: 70vw;
     height: 150px;
-  }
+
+
+}  
 
 .perfil__sobre::placeholder {
     text-align: start;
     
+}
+
+
+@media (min-height: 768px) {
+  .perfil__text {
+    padding-top: 200px;
+  }
+}
+
+@media (min-height: 1440px) {
+  .perfil__text {
+    padding-top: 300px;
+  }
 }
 

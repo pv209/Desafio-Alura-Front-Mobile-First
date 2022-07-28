@@ -31,8 +31,9 @@ function Home() {
               Quero me cadastrar
             </button>
           </Link>
-
-          <img src={ilust} alt="ilustracao" class="ilust" />
+          <div class="div__ilust">
+            <img src={ilust} alt="ilustracao" class="ilust" />
+          </div>
         </div>
         <Footer />
       </div>
