@@ -17,13 +17,14 @@
 }
 
 .main__cards {
+  width:100vw;
   height: 100vh;
   flex-grow: 1;
   overflow: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .pets__img {
@@ -87,4 +88,10 @@
   width: 40px;
   top:30px;
   right: 60px;
+}
+
+@media (max-width:620px) {
+  .main__card{
+    width :100%;
+  }
 }

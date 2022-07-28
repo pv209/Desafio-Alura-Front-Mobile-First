@@ -122,3 +122,12 @@
     display:none;
   }
 }
+
+@media (max-height: 780px) {
+  .forma2{
+    display:none;
+  }
+  .form2{
+    display:none;
+  }
+}
