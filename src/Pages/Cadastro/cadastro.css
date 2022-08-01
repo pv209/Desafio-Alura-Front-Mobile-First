@@ -3,7 +3,7 @@
 .main__cadastro {
   display: flex;
   flex-direction: column;
-  background-color: #f7f7f7;
+  background-color: #ffff;
   width: 100vw;
   height: 100vh;
   flex-grow: 1;

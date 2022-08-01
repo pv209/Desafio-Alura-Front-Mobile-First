@@ -26,7 +26,7 @@
   align-items: flex-start;
   background: #f7f7f7;
   width: 80vw;
-  height:60vh;
+  height:50vh;
   overflow: auto;
 }
 
@@ -57,7 +57,7 @@
     border-radius: 6px;
     text-align: center;
     width: 70vw;
-    height: 160px;
+    height: 100px;
     mix-blend-mode: normal;
     border-radius: 6px;
     border: none;
@@ -72,3 +72,44 @@
     font-size: 12px;
     padding: 0 auto;
   }
+
+@media (min-height:890px) {
+  .mensagem__inpt{
+    margin-bottom: 20px;
+  }
+  .mensagem__form{
+    height:60vh;
+  }
+
+  .mensagem__mensagem{
+    height:250px;
+  }
+}
+
+@media (min-height:1000px) {
+    .mensagem__inpt{
+      margin-bottom: 30px;
+    }
+
+    .mensagem__text{
+      margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 350px ) {
+  .mensagem__inpt{
+    width: 100%;
+  }
+  .mensagem__form{
+    width: 100vw;
+  }
+
+  .mensagem__mensagem{
+    width: 100%;
+  }
+
+  .mensagem__text{
+    width: 100%;
+  }
+}

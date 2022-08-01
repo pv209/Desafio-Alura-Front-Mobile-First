@@ -49,6 +49,10 @@
   width: 35%;
 }
 
+.logo__header {
+  padding-left: 40px;
+}
+
 .main__content {
   display: flex;
   flex-direction: column;
@@ -155,7 +159,7 @@ body {
   z-index:99;
   justify-content: flex-start;
 }
-@media (max-height: 750px) {
+@media (max-width: 750px) {
   .ilust {
     display: none;
   }
@@ -167,11 +171,12 @@ body {
 
 @media (min-height: 760px) {
   .casa {
-    left: 180px;
+    margin-top:30px;
+    margin-left:50px;
   }
 
   .mensagem {
-    left: 220px;
+    margin-top: 10px;
   }
 }
 
